@@ -1,3 +1,4 @@
+
 .header 
 {
     background: black;
@@ -14,7 +15,7 @@ div.header_container .name
     color:rgb(255, 255, 255);
     margin-left: 5%;
 }
-div.header_container .navigation 
+div.header_container .task 
 {
     padding-right: 10%;
 }
@@ -36,6 +37,7 @@ div.header_container .navigation
     border-radius: 20px;
     transition: all 300ms ease-in-out;
 }
+
 .wrapper 
 {
     margin: 0 auto;
