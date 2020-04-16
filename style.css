@@ -60,7 +60,7 @@ body {
     justify-content: space-between;
 }
 
-.social {
+.navigation {
     padding-right: 10%;
 }
 
@@ -68,21 +68,6 @@ body {
     background: black;
     border-radius: 33px;
 }
-
-/* С Е Р Т И Ф И К А Т Ы */
-
-.certificates_image {
-    width: 500px;
-    height: 600px;   
-}
-.certificates {
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* С Е Р Т И Ф И К А Т Ы */
-
 
 .header_container a {
     padding-left: 10px;

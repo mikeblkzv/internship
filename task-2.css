@@ -1,24 +1,25 @@
 
-body 
-{
-    font-family: 'Open Sans', sans-serif;
-}
 .header 
 {
-    height: 50px;
-    width: 100%;
-    
+    background: black;
+    border-radius: 33px;
 }
-.header_menu
+.header_container  
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background: black;
-    border-radius: 33px;
-    height: 100%;
+    justify-content: space-between;
 }
-div.header_menu a
+div.header_container .name 
+{
+    color:rgb(255, 255, 255);
+    margin-left: 5%;
+}
+div.header_container .navigation 
+{
+    padding-right: 10%;
+}
+.header_container a 
 {
     padding-left: 10px;
     padding-right: 10px;
@@ -31,8 +32,7 @@ div.header_menu a
     color: white;
     transition: all 300ms ease-in-out;
 }
-
-div.header_menu a:hover {
+.header_container a:hover {
     background: rgb(126, 119, 119);
     border-radius: 20px;
     transition: all 300ms ease-in-out;
@@ -114,7 +114,14 @@ div.wrapper h3
     line-height: 37px;
     color: #FCFCFC;
 }
-div.msg_form input 
+div.header_menu input[type="button"]
+{
+    font-family: Open Sans;
+    color: black;
+    width: 65px;
+}
+
+div.msg_form input
 {
     margin: 0 auto;
     right: 441px;
@@ -122,7 +129,7 @@ div.msg_form input
     height: 54px;
 
 }
-div.msg_form  input[type="submit"]
+div.msg_form input[type="submit"]
 {
     width: 215px;
     height: 54px;
