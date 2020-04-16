@@ -115,13 +115,6 @@ div.wrapper h3
     line-height: 37px;
     color: #FCFCFC;
 }
-div.header_menu input[type="button"]
-{
-    font-family: Open Sans;
-    color: black;
-    width: 65px;
-}
-
 div.msg_form input
 {
     margin: 0 auto;
