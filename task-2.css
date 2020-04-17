@@ -37,7 +37,6 @@ div.header_container .navigation
     border-radius: 20px;
     transition: all 300ms ease-in-out;
 }
-
 .wrapper 
 {
     margin: 0 auto;
@@ -115,6 +114,13 @@ div.wrapper h3
     line-height: 37px;
     color: #FCFCFC;
 }
+div.header_menu input[type="button"]
+{
+    font-family: Open Sans;
+    color: black;
+    width: 65px;
+}
+
 div.msg_form input
 {
     margin: 0 auto;
