@@ -1,26 +1,21 @@
 
-.header 
-{
+.header {
     background: black;
     border-radius: 33px;
 }
-.header_container  
-{
+.header_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-div.header_container .name 
-{
+.header_container .name {
     color:rgb(255, 255, 255);
     margin-left: 5%;
 }
-div.header_container .navigation 
-{
+.header_container .navigation {
     padding-right: 10%;
 }
-.header_container a 
-{
+.header_container a {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 3px;
@@ -37,46 +32,38 @@ div.header_container .navigation
     border-radius: 20px;
     transition: all 300ms ease-in-out;
 }
-.wrapper 
-{
+.wrapper  {
     margin: 0 auto;
     width: 1146px;
     height: 720px;
     background: #150433;
 }
-.contact 
-{
+.contact  {
     margin-bottom: 54px;
     display: flex;
     justify-content: center;
     align-items: end;
 }
-div.contact_form 
-{
+.contact_form  {
     margin-right: 30px;
     width: 362px;
     height: 230px;
     
 }
-div.contact_form input[type="text"], div.contact_form input[type="email"]
-{
+.contact_form .contact_text, .contact_email, .msg_textarea {
     margin-bottom: 71px;
     width: 100%;
     height: 54px;
     background: #FCFCFC;
     border: 1px solid #F4F4ED;
     box-sizing: border-box;
-}
-div.msg_form 
-{
-    width: 558px;
-    height: 270px;
-    margin-bottom: 52px;
-}
-
-div.contact_form input::placeholder
-{
     padding-left: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2px;
+}
+.contact_form input::placeholder {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -85,10 +72,13 @@ div.contact_form input::placeholder
     color: #9B94A3;
     opacity: 0.5;
 }
-div.msg_form textarea::placeholder
-{
-    padding-left: 54px;
-    padding-top: 36px;
+.msg_form  {
+    width: 558px;
+    height: 270px;
+    margin-bottom: 52px;
+}
+
+.msg_form textarea::placeholder {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -97,14 +87,15 @@ div.msg_form textarea::placeholder
     color: #776C82;
     opacity: 0.5;
 }
-div.msg_form  textarea 
-{
+.msg_form  textarea  {
+    padding-left: 54px;
+    padding-top: 34px;
     margin-bottom: 54px;
     width: 100%;
     height: 100%;
+    resize: none;
 }
-div.wrapper h3 
-{
+.wrapper h3  {
     padding-top: 108px;
     padding-left: 98px;
     font-family: Open Sans;
@@ -114,23 +105,14 @@ div.wrapper h3
     line-height: 37px;
     color: #FCFCFC;
 }
-div.header_menu input[type="button"]
-{
-    font-family: Open Sans;
-    color: black;
-    width: 65px;
-}
-
-div.msg_form input
-{
+.msg_form input {
     margin: 0 auto;
     right: 441px;
     width: 215px;
     height: 54px;
 
 }
-div.msg_form input[type="submit"]
-{
+.msg_form .msg_submit {
     width: 215px;
     height: 54px;
     background: #F61067;
@@ -138,12 +120,11 @@ div.msg_form input[type="submit"]
     font-family: Open Sans;
     font-size: 13.5px;
     color: #FCFCFC;
+    border: none;
 }
-div.wrapper div.contact span
-{
+.wrapper .contact span {
     margin-bottom: 1px;
     width: 264px;
-    height: 35px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 800;
