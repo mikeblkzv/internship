@@ -121,6 +121,7 @@
     font-size: 13.5px;
     color: #FCFCFC;
     border: none;
+    cursor: pointer;
 }
 .wrapper .contact span {
     margin-bottom: 1px;
