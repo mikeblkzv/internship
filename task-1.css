@@ -10,12 +10,12 @@
     align-items: center;
     justify-content: space-between;
 }
-div.header_container .name 
+.header_container .name 
 {
     color:rgb(255, 255, 255);
     margin-left: 5%;
 }
-div.header_container .navigation 
+.header_container .navigation 
 {
     padding-right: 10%;
 }
@@ -49,13 +49,13 @@ h2
     text-align: center;
 
 }
-div.certificates .title 
+.certificates .title 
 {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
-div.certificates .cerf_hb 
+.certificates .cerf_hb 
 {
     margin-top: 25px;
     display: flex;
@@ -63,7 +63,7 @@ div.certificates .cerf_hb
 }
 /* С Е Р Т И Ф И К А Т Ы */
 
-div.certificates span 
+.certificates span 
 { 
     padding-top: 15px;
     text-align: center;
