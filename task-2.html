@@ -20,11 +20,17 @@
       		</div>      
         </header> 
         <div class="ui_elements">
-            <div class="radio_button">
-                <input type="radio" class="radio" id="id1" name="radio">
-                <label for="id1" class="text">Hello</label>
-                <input type="radio" class="radio" id="id2" name="radio">
-                <label for="id2" class="text">Ciao</label>
+            <div class="radiobuttons">
+                <label for="id1" class="radio" >
+                    <input type="radio" id="id1" value="1" name="radio">
+                    Hello
+                    <span></span>
+                </label>
+                <label for="id2" class="radio" >
+                    <input type="radio"  id="id2" value="2" name="radio">
+                    Ciao
+                    <span></span>
+                </label>
             </div>
             
             <button class="ui_button">Touch Me</button>
@@ -34,21 +40,23 @@
             </label>
         </div>
     
-        <div class="wrapper">
-            <h3>Get in touch with us</h3>
-            <div class="contact">
-                <div class="contact_form">
-                    <span>YOUR NAME</span>
-                    <input class="contact_text" type="text" placeholder="Your Name" required />
-                    <span>YOUR EMAIL</span>
-                    <input class="contact_email" type="email" placeholder="Your Email" required />
+        <form class="wrapper">
+            <div class="head">
+                <span class="span_head">Get in touch with us</span>
+            </div>
+            <div class="data">
+                <div class="data_form">
+                    <span class="span_form">YOUR NAME</span>
+                    <input class="contact_data" type="text" placeholder="Your Name" required />
+                    <span class="span_form">YOUR EMAIL</span>
+                    <input class="contact_data" type="email" placeholder="Your Email" required />
                 </div>
                 <div class="msg_form">
-                    <span>YOUR MESSAGE</span>
-                    <textarea class="msg_textarea" placeholder="Your Message"></textarea>
+                    <span class="span_form">YOUR MESSAGE</span>
+                    <textarea class="msg_data" placeholder="Your Message"></textarea>
                     <input class="msg_submit" type="submit"  value="SEND MESSAGE" />
                 </div>
             </div>
-        </div>
+        </form>
     </body>
 </html>
