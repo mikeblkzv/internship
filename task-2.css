@@ -210,14 +210,10 @@
     line-height: 37px;
     color: #FCFCFC;
 }
-.data_form1 input {
+
+.data_submit-send {
     margin: 0 auto;
     right: 441px;
-    width: 215px;
-    height: 54px;
-
-}
-.data_submit {
     width: 215px;
     height: 54px;
     background: #F61067;
@@ -228,8 +224,6 @@
     border: none;
     cursor: pointer;
     outline: none;
-   
-}
 .data_span {
     margin-bottom: 1px;
     width: 264px;
