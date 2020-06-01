@@ -687,12 +687,12 @@ body {
     justify-content: space-between;
 }
 
-.footer__title {
+.footer-title {
     font-size: 18px;
     line-height: 22px;
     color: #101010;
 }
-.footer__subtitle {
+.footer-subtitle {
     margin-bottom: 141px;
     font-size: 12px;
     line-height: 150%;
