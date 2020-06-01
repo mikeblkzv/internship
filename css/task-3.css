@@ -306,7 +306,7 @@ body {
     color: rgb(246, 226, 226);
     border: 0;
     width: 50px;
-    background: url('./img/svg/Vector 2.svg') no-repeat right;
+    background: url('../img/svg/Vector 2.svg') no-repeat right;
     background-position-x: 96%;
     -webkit-appearance: none;
 }
@@ -339,7 +339,7 @@ body {
 /* intro styles startt  */
 .intro {
     min-height: 100vh;
-    background: url(./img/svg/Bg.png) no-repeat center;
+    background: url(../img/svg/Bg.png) no-repeat center;
     background-size: cover;
     padding-top: 257px;
     text-align: center;
@@ -650,7 +650,7 @@ body {
 .select {
     border: 1px solid #333333;
     opacity: 0.5;
-    background: url('./img/svg/down.svg') no-repeat right;
+    background: url('../img/svg/down.svg') no-repeat right;
     background-position-x: 96%;
     margin-right: 3px;
     -webkit-appearance: none;
