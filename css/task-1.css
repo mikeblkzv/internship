@@ -1,0 +1,81 @@
+
+.header 
+{
+    background: black;
+    border-radius: 33px;
+}
+.header_container  
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_container .name 
+{
+    color:rgb(255, 255, 255);
+    margin-left: 5%;
+}
+.header_container .navigation 
+{
+    padding-right: 10%;
+}
+.header_container a 
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 3px;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: all 300ms ease-in-out;
+}
+.header_container a:hover {
+    background: rgb(126, 119, 119);
+    border-radius: 20px;
+    transition: all 300ms ease-in-out;
+}
+/* С Е Р Т И Ф И К А Т Ы */
+.certificates_image 
+{
+    width: 480px;
+    height: 600px;   
+}
+h2
+{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.certificates .title 
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.certificates .cerf_hb 
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+/* С Е Р Т И Ф И К А Т Ы */
+
+.certificates span 
+{ 
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 30px;
+    font-family: Open Sans;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 3px;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    line-height: 30px ;
+}
