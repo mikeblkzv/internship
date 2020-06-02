@@ -307,7 +307,7 @@ body {
     color: rgb(246, 226, 226);
     border: 0;
     width: 50px;
-    background: url('./img/svg/Vector 2.svg') no-repeat right;
+    background: url('../img/svg/Vector 2.svg') no-repeat right;
     background-position-x: 96%;
     -webkit-appearance: none;
 }
@@ -341,7 +341,7 @@ body {
 /* intro styles start  */
 .intro {
     min-height: 100vh;
-    background: url(./img/svg/Bg.png) no-repeat center;
+    background: url(../img/svg/Bg.png) no-repeat center;
     background-size: cover;
     padding-top: 257px;
     text-align: center;
@@ -690,7 +690,7 @@ select::-ms-expand {
     margin-bottom: 27px;
 }
 .select::after {
-    content: url(./img/svg/down.svg);
+    content: url(../img/svg/down.svg);
     position: absolute;
     top: 0;
     right: 0;
