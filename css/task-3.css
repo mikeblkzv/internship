@@ -659,14 +659,46 @@ body {
     color: rgba(19, 39, 67, 0.5);
     
 }
+.select > select {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: 0!important;
+    color: rgba(19, 39, 67, 0.5);
+    background: #fff;
+    cursor: pointer;
+    flex: 1;
+    padding: 0 2em;
+}
+select::-ms-expand {
+    display: none;
+}
+
 .select {
-    border: 1px solid #030303;
-    opacity: 0.5;
-    background: url('./img/svg/down.svg') no-repeat right;
-    background-position-x: 96%;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    line-height: 3.5;
+    width: 540px;
+    height: 60px;   
+    border-radius: 6px;
+    border: 1px solid #333333;
+    /* background: url('./img/svg/down.svg') no-repeat right;
+    background-position-x: 96%; */
     margin-right: 3px;
     -webkit-appearance: none;
+    margin-bottom: 27px;
 }
+.select::after {
+    content: url(./img/svg/down.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+}
+
 
 .data-submit {
     width: 160px;
