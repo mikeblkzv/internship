@@ -234,22 +234,30 @@ textarea {
          url('../fonts/lato-v16-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/lato-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  html {
+html {
+      height: 100%;
       box-sizing: border-box;
-  }
-  *, *::before, *::after {
+}
+*, *::before, *::after {
       box-sizing: inherit;
-  }
+}
 /* header styles start  */
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     line-height: 1.2;
     font-weight: normal;
 }
+.main {
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex: 1 0;
+}
 .header {
-    flex: 0 0 auto;
     width: 100%;
     position: fixed;
     left: 0;
@@ -336,7 +344,6 @@ body {
 }
 /* header styles end  */
 .main {
-    flex: 1 0 auto;
 }
 /* intro styles start  */
 .intro {
@@ -458,9 +465,9 @@ body {
     margin-right: 30px;
 }
 .features__descriptions {
-    max-width: 1053px;
+    /* max-width: 1053px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: relative;
     left: 30px;
     bottom: 95px;
@@ -524,11 +531,11 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
-    line-height: 22px;      
+    line-height: 22px; 
+    font-weight: bold;    
 }
 .content-subtitle {
     font-size: 12px;
-    line-height: 14px;
 }
 .block {
     margin-right: 30px;
@@ -600,9 +607,6 @@ body {
 /* app-download styles end */
 
 /* contact styles start */
-.contact {
-    flex: 1 0 auto;
-}
 .contact__wrapper {
     max-width: 1060px;
     display: flex;
@@ -736,19 +740,20 @@ select::-ms-expand {
     font-size: 18px;
     line-height: 22px;
     color: #101010;
+    margin-bottom: 33px;
 }
 .footer-subtitle {
     margin-bottom: 141px;
-    font-size: 12px;
-    line-height: 150%;
+    font-size: 11px;
     color: #101010;
+    line-height: 160%;
 }
 .getintouch {
     width: 122px;
 }
 .copyr {
+    line-height: 160%;
     font-size: 12px;
-    line-height: 14px;
     color: #101010;
 }
 .service-list {
@@ -757,17 +762,24 @@ select::-ms-expand {
     line-height: 160%;
     color: #000000;
 }
-.label, .mail{
-    margin-bottom: 11px;
+.label, .mail {
+    margin-top: 20px;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
     text-decoration: none;
 }
+
+.getin-label {
+    text-align: left;
+}
 a:hover, a:focus, a:active  {
     text-decoration: none;
     font-weight: bold;
    
+}
+.social__wrapper {
+    margin-top: 10px;
 }
 .social {
     margin-right: 5px;
