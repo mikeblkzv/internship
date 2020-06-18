@@ -264,7 +264,7 @@ body {
     line-height: 43px;
     text-align: center;
     color: #000000;
-    margin-bottom: 62px;
+    margin-bottom: 50px;
 }
 .header {
     width: 100%;
@@ -352,7 +352,32 @@ body {
     border: 2px solid #FFFFFF
 }
 /* header styles end  */
-
+.subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+}
+.subtitle--size-m {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 150%;
+}
+.subtitle--size-s {
+    font-size: 12px;
+    line-height: 14px;
+}
+.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.indent {
+    margin-top: 60px;
+}
+.white--size {
+    color: white;
+    margin-bottom: 40px;
+}
 /* intro styles start  */
 .intro {
     min-height: 100vh;
@@ -416,11 +441,7 @@ body {
     color: #000000;
     margin-bottom: 24px;
 }
-.video-subtitle {
-    text-align: justify;
-    margin-bottom: 25px;
 
-}
 .video__link {
     height: 311px;
     position: relative;
@@ -494,12 +515,7 @@ body {
     font-size: 18px;
     line-height: 22px;
 }
-.features-subtitle {
-    font-size: 12px;
-    line-height: 150%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 .features-link {
     text-decoration: none;
     font-size: 12px;
@@ -526,13 +542,11 @@ body {
     line-height: 22px; 
     font-weight: bold;    
 }
-.content-subtitle {
-    font-size: 12px;
-}
+
 .block {
     margin-right: 30px;
     width: 255px;
-    height: 226px;
+    height: 100%;
     text-align: center;
     color: #000000;
 }
@@ -553,20 +567,12 @@ body {
     width: 445px;
     height: 311px;
 }
-.app-title {
+.title-white {
+    text-align: left;
     padding-top: 122px;
-    font-size: 36px;
-    line-height: 43px;
     color: #FFFFFF;
  }
- .app-subtitle {
-    font-family: 'Lato';
-    padding-bottom: 40px;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
-    color: #FFFFFF;
-    margin-top: 24px;
+ 
  }
 .market {
     margin-right: 30px;
@@ -615,12 +621,7 @@ body {
     line-height: 43px;
     color: #000000;
 }
-.contact-subtitle {
-    padding-top: 60px;
-    font-size: 13px;
-    line-height: 140%;
-    text-align: justify;
-    color: #000000;
+
 }
 .data__contact {
     width: 540px;
@@ -729,6 +730,8 @@ select::-ms-expand {
 }
 
 .footer-title {
+	font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #101010;
