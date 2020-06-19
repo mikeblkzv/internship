@@ -619,6 +619,8 @@ body {
 .contact--size {
     padding-top: 0;
     text-align: left;
+    
+    font-weight: 100;
 }
 
 }
