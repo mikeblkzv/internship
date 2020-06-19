@@ -616,10 +616,9 @@ body {
     margin-right: 125px;
     width: 434px;
 }
-.contact-title {
-    font-size: 36px;
-    line-height: 43px;
-    color: #000000;
+.contact--size {
+    padding-top: 0;
+    text-align: left;
 }
 
 }
