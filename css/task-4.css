@@ -44,10 +44,20 @@ body {
 .color-gray {
     background-color: gray;
 }
-@media screen and (max-width: 320px) {
-    
+@media screen and (min-width: 320px) {
+    .wrapper {
+        min-width: 320px;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    
+    .wrapper {
+        min-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .wrapper {
+        min-width: 1366px;
+    }
 }
