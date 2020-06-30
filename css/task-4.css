@@ -6,40 +6,48 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-.header {
-    background-color: gray;
-}
 .wrapper {
-    max-width: 1366px;
-    margin: 0 auto;
+    display: grid;
+}
+.flex {
     display: flex;
+}
+.box {
+    height: 50px;
+    display: grid;
+    border: 1px solid black
+}
+.col-50 {
+    width: 50%;
+}
+.col-33 {
+    width: 33.33%;
+}
+.col-66 {
+    width: 66.66%;
+}
+.col-75 {
+    width: 75%;
+}
+.col-25 {
+    width: 25%;
+}
+.color-blue {
+    background-color: blue;
+}
+.color-red {
+    background-color: red;
+}
+.color-green {
+    background-color: green;
+}
+.color-gray {
     background-color: gray;
-}
-.wrapper__box {
-    width: 100%;
-    margin: 10px 0 10px;
-    background-color: rgb(47, 46, 46);
-}
-
-.text {
-    color: white;
-}
-.img {
-    width: 100%;
-}
-.text {
 }
 @media screen and (max-width: 320px) {
-    .wrapper {
-        display: grid;
-        margin-right: none;
-    }
+    
 }
 
-@media screen and (max-width: 768px) {
-    .wrapper {
-        max-width: 700px;
-        display: grid;
-        margin: 0 auto;
-    }
+@media screen and (min-width: 768px) {
+    
 }
